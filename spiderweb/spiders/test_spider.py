@@ -1,6 +1,7 @@
-#coding=utf-8
+# -*- coding: utf-8 -*-
 import scrapy
 from pymongo import MongoClient
+from spiderweb.items import TestItem
 
 class TestSpider(scrapy.spiders.Spider):
     name = "test"
@@ -12,8 +13,16 @@ class TestSpider(scrapy.spiders.Spider):
     def parse(self, response):
 
         self.connectMongo()
-        filename = "testFile.html"
+        filename = "testFile1.html"
         with open(filename, "wb") as f:
+            for sel in response.xpath('//a'):
+                item = TestItem()
+                item['title'] = sel.xpath('text()').extract()
+                item['href'] = sel.xpath('@href').extract()
+                yield item
+                print(item['title'], " --- ", item['href'])
+
+
             f.write(response.body)
 
 

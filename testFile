@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title> New Document </title>
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+	 <link rel="stylesheet" type="text/css" href="/static/css/index.css" />
+ </head>
+ <body>
+  
+   <div class="box">
+
+      <div class="list-bannar">
+         <img src="/static/images/11.jpg">
+	  </div>
+
+	  <div class="list-step-line"></div>
+
+	  <div class="list-step">
+	      <table width="100%" cellpadding="0" cellspacing="0">
+		   <tr>
+			  <td align="left" valign="middle"><span class="fl list-step1"><em>1</em><br>第一步</span></td>
+			  <td width="50" align="center" valign="middle"><span class="fl list-step2"><em>2</em><br>第二步</span></td>
+			  <td  align="right" valign="middle"><span class="fr list-step2"><em>3</em><br>第三步</span></td>
+			</tr>
+		  </table>
+	  </div>
+
+	  <div class="list-intro">
+	    <p>1.鉴赏条件鉴赏条件鉴赏条件</p>
+	    <p>2.鉴赏条件鉴赏条件鉴赏条件</p>
+	    <p>3.鉴赏条件鉴赏条件鉴赏条件</p>
+	  </div>
+
+	  <div class="list-product">
+	     <ul>
+		   <li>
+		      <div class="list-product1"><a href="/index/index/indianashow.html"><img src="/static/images/bss.jpg"></a></div>
+		      <div class="list-product2"><a href="/index/index/indianashow.html">标题标题标题标题</a></div>
+		      <div class="list-product3">价值3455</div>
+		      <div class="list-product4">
+			     <a href="/index/index/indianashow.html"><img src="/static/images/cart.png" class="list-cart"></a>
+				 <div class="list-product4a"><span style="width:50%"></span></div>
+			  </div>
+		   </li>
+		   <li>
+		      <div class="list-product1"><a href="/index/index/indianashow.html"><img src="/static/images/bss.jpg"></a></div>
+		      <div class="list-product2"><a href="/index/index/indianashow.html">标题标题标题标题</a></div>
+		      <div class="list-product3">价值3455</div>
+		      <div class="list-product4">
+			     <a href="/index/index/indianashow.html"><img src="/static/images/cart.png" class="list-cart"></a>
+				 <div class="list-product4a"><span style="width:50%"></span></div>
+			  </div>
+		   </li>
+		   <li>
+		      <div class="list-product1"><a href="/index/index/indianashow.html"><img src="/static/images/bss.jpg"></a></div>
+		      <div class="list-product2"><a href="/index/index/indianashow.html">标题标题标题标题</a></div>
+		      <div class="list-product3">价值3455</div>
+		      <div class="list-product4">
+			     <a href="/index/index/indianashow.html"><img src="/static/images/cart.png" class="list-cart"></a>
+				 <div class="list-product4a"><span style="width:50%"></span></div>
+			  </div>
+		   </li>
+		   <li>
+		      <div class="list-product1"><a href="/index/index/indianashow.html"><img src="/static/images/bss.jpg"></a></div>
+		      <div class="list-product2"><a href="/index/index/indianashow.html">标题标题标题标题</a></div>
+		      <div class="list-product3">价值3455</div>
+		      <div class="list-product4">
+			     <a href="/index/index/indianashow.html"><img src="/static/images/cart.png" class="list-cart"></a>
+				 <div class="list-product4a"><span style="width:50%"></span></div>
+			  </div>
+		   </li>
+		 </ul>
+	  </div>
+
+	  <div class="footer">
+         <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+			  <td width="65"  align="left" valign="middle"><a href="/index/index/jewellery.html"><img src="/static/images/zb1.png" class="show"><img src="/static/images/zb2.png"    class="hide"><br>直播</a></td>
+			  <td align="center" valign="middle" class="footerc"><a href="/index/index/indiana.html"><img src="/static/images/jb1.png" class="show"><img src="/static/images/jb2.png"    class="hide"><br>鉴赏</a></td>
+			  <td width="85"  align="left" valign="middle"><a href="/index/index/about.html"><img src="/static/images/gy1.png" class="show"><img src="/static/images/gy2.png" class="hide"><br>关于我们</a></td>
+			</tr>
+		 </table>
+	  </div>
+
+
+   </div>
+     
+ </body>
+</html>

@@ -18,9 +18,6 @@ class TestSpider(scrapy.spiders.Spider):
                 item['title'] = sel.xpath('text()').extract()
                 item['href'] = sel.xpath('@href').extract()
                 yield item
-                # print(item['title'], " --- ", item['href'])
-
-
             f.write(response.body)
 
 

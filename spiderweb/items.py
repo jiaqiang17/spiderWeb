@@ -20,4 +20,3 @@ class TestItem(scrapy.Item):
     title = scrapy.Field()
     href = scrapy.Field()
     pass
-

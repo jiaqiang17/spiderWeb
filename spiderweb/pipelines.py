@@ -18,7 +18,8 @@ class SpiderwebPipeline(object):
         if spider.name == 'test':
             data = {
                 'title': item['title'],
-                'href': item['href']
+                'href': item['href'],
+                'userid': item['userid']
             }
 
             self.db['test'].insert_one(data)

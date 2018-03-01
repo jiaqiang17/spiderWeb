@@ -19,4 +19,5 @@ class TestItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     href = scrapy.Field()
+    userid = scrapy.Field()
     pass

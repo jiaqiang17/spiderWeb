@@ -15,14 +15,14 @@ class SpiderwebPipeline(object):
         self.db = self.client[settings['MONGO_DB']]
 
     def process_item(self, item, spider):
-        if spider.name == 'test':
+        if spider.name == 'getusers':
             data = {
                 'title': item['title'],
                 'href': item['href'],
                 'userid': item['userid']
             }
 
-            self.db['test'].insert_one(data)
+            self.db['users'].insert_one(data)
             print(data)
 
         return item

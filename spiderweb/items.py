@@ -14,7 +14,7 @@ class SpiderwebItem(scrapy.Item):
     pass
 
 
-class TestItem(scrapy.Item):
+class GetusersItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()

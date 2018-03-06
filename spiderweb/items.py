@@ -21,3 +21,10 @@ class GetusersItem(scrapy.Item):
     href = scrapy.Field()
     userid = scrapy.Field()
     pass
+
+
+class GetdetailItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    introduce = scrapy.Field()
+    pass
